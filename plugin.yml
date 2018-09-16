@@ -1,0 +1,9 @@
+name: SnoLib
+description: SnoFox core lib
+version: 1.0.0
+main: net.snofox.minecraft.snolib.SnoLib
+author: SnoFox
+website: https://www.snofox.net/
+api-version: 1.13
+depend: []
+softdepend: []
