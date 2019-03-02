@@ -11,6 +11,7 @@ public class SnoLib extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("SnoLib enabled!");
+        getServer().getScheduler().scheduleSyncRepeatingTask(this, new GameTickCounter(), 1, 1);
     }
 
     @Override
@@ -21,5 +22,9 @@ public class SnoLib extends JavaPlugin {
     public void enableSubmergeTracking(final boolean allEntities) {
         if(submergeTracker == null) submergeTracker = new SubmergeTracker(this);
         submergeTracker.setupTracker(allEntities);
+    }
+
+    public int getGameTick() {
+        return GameTickCounter.gameTick;
     }
 }

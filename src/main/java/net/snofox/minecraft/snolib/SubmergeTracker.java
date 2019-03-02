@@ -79,7 +79,6 @@ public class SubmergeTracker implements Listener {
     }
 
     private void handleDespawn(final LivingEntity e) {
-        module.getLogger().info("Removing " + e.getName() + " w/o event");
         submergedEntites.remove(e.getUniqueId());
     }
 
