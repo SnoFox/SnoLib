@@ -2,8 +2,6 @@ package net.snofox.minecraft.snolib;
 
 import org.bukkit.block.BlockFace;
 
-import java.util.ArrayList;
-
 /**
  * Created by Josh on 2018-09-16
  */

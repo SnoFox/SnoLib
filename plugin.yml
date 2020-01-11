@@ -1,6 +1,6 @@
 name: SnoLib
 description: SnoFox core lib
-version: 1.0.0
+version: ${version}
 main: net.snofox.minecraft.snolib.SnoLib
 author: SnoFox
 website: https://www.snofox.net/
