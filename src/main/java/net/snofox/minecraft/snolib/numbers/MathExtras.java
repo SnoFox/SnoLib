@@ -1,4 +1,4 @@
-package net.snofox.minecraft.snolib;
+package net.snofox.minecraft.snolib.numbers;
 
 /**
  * Created by Josh on 2020-01-05

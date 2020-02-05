@@ -1,6 +1,7 @@
 package net.snofox.minecraft.snolib;
 
 import com.google.common.collect.ImmutableList;
+import net.snofox.minecraft.snolib.events.EntitySubmergedEvent;
 import org.bukkit.World;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
@@ -21,7 +22,7 @@ import java.util.UUID;
 /**
  * Created by Josh on 2018-09-15
  */
-public class SubmergeTracker implements Listener {
+class SubmergeTracker implements Listener {
     final private SnoLib module;
     final private Set<UUID> submergedEntites;
     private int taskId = -1;

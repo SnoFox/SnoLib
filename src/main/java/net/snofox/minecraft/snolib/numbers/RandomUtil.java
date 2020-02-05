@@ -1,4 +1,4 @@
-package net.snofox.minecraft.snolib;
+package net.snofox.minecraft.snolib.numbers;
 
 import java.util.Random;
 

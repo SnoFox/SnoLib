@@ -1,4 +1,4 @@
-package net.snofox.minecraft.snolib;
+package net.snofox.minecraft.snolib.events;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.event.HandlerList;

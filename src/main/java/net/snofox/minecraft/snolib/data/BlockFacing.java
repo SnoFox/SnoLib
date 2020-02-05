@@ -1,4 +1,4 @@
-package net.snofox.minecraft.snolib;
+package net.snofox.minecraft.snolib.data;
 
 import org.bukkit.block.BlockFace;
 

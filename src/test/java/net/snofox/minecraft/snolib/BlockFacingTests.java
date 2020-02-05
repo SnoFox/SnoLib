@@ -1,5 +1,6 @@
 package net.snofox.minecraft.snolib;
 
+import net.snofox.minecraft.snolib.data.BlockFacing;
 import org.bukkit.block.BlockFace;
 import org.testng.Assert;
 import org.testng.annotations.Test;
