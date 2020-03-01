@@ -39,4 +39,43 @@ public class BlockFacing {
         final int dir = Math.round(yaw / 22.5f) & 0xf;
         return secondary_intermediates[dir];
     }
+
+    public static float getYaw(final BlockFace face) {
+        switch(face) {
+            case NORTH:
+                return -180f;
+            case NORTH_NORTH_EAST:
+                return -157.5f;
+            case NORTH_EAST:
+                return -135f;
+            case EAST_NORTH_EAST:
+                return -112.5f;
+            case EAST:
+                return -90f;
+            case EAST_SOUTH_EAST:
+                return -67.5f;
+            case SOUTH_EAST:
+                return -45f;
+            case SOUTH_SOUTH_EAST:
+                return -22.5f;
+            case SOUTH:
+                return 0f;
+            case SOUTH_SOUTH_WEST:
+                return 22.5f;
+            case SOUTH_WEST:
+                return 45f;
+            case WEST_SOUTH_WEST:
+                return 67.5f;
+            case WEST:
+                return 90f;
+            case WEST_NORTH_WEST:
+                return 112.5f;
+            case NORTH_WEST:
+                return 135f;
+            case NORTH_NORTH_WEST:
+                return 157.5f;
+            default:
+                return -1f;
+        }
+    }
 }
